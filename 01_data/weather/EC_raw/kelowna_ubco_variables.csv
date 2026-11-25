@@ -1,0 +1,9 @@
+variable,standard_name,cell_method,unit
+air_temperature,air_temperature,time: point,Celsius
+air_temperature_yesterday_high,air_temperature,time: maximum,Celsius
+air_temperature_yesterday_low,air_temperature,time: minimum,Celsius
+dew_point,dew_point_temperature,time: point,Celsius
+mean_sea_level,mean_sea_level_pressure,time: point,kPa
+relative_humidity,relative_humidity,time: point,percent
+tendency_amount,tendency_of_air_pressure,time: sum,kPa s-1
+total_precipitation,lwe_thickness_of_precipitation_amount,time: sum,mm

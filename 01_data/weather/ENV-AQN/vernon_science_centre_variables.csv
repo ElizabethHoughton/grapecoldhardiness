@@ -1,0 +1,7 @@
+variable,standard_name,cell_method,unit
+avg_air_temp_pst1hr,air_temperature,time: mean,celsius
+avg_rel_hum_pst1hr,relative_humidity,time: mean,%
+humidity,relative_humidity,time: point,%
+temp_mean,air_temperature,time: mean,celsius
+wdir_vect,wind_from_direction,time: point,degree
+wspd_sclr,wind_speed,time: point,m/s

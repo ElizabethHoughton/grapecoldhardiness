@@ -1,0 +1,12 @@
+variable,standard_name,cell_method,unit
+air_temperature,air_temperature,time: point,Celsius
+air_temperature_yesterday_high,air_temperature,time: maximum,Celsius
+air_temperature_yesterday_low,air_temperature,time: minimum,Celsius
+dew_point,dew_point_temperature,time: point,Celsius
+mean_sea_level,mean_sea_level_pressure,time: point,kPa
+relative_humidity,relative_humidity,time: point,percent
+total_cloud_cover,cloud_area_fraction,time: point,percent
+total_precipitation,lwe_thickness_of_precipitation_amount,time: sum,mm
+wind_direction,wind_from_direction,time: mean,degree
+wind_gust_speed,wind_speed_of_gust,time: maximum,km/h
+wind_speed,wind_speed,time: point,km/h

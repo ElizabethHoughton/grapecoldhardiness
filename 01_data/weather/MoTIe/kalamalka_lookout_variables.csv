@@ -1,0 +1,32 @@
+variable,standard_name,cell_method,unit
+actual_wind_direction,wind_from_direction,time: point,degrees
+actual_wind_speed,wind_speed,time: point,
+air_temp,air_temperature,time: point,celsius
+atmospheric_pressure,air_pressure,time: point,millibar
+avg_wnd_dir_10m_pst10mts,wind_from_direction,time: mean,degrees
+avg_wnd_spd_10m_pst10mts,wind_speed,time: mean,km/h
+current_air_temperature1,air_temperature,time: point,celsius
+current_air_temperature2,air_temperature,time: point,celsius
+dew_point,dew_point_temperature,time: mean,celsius
+dwpt_temp,dew_point_temperature,time: point,celsius
+height_of_snow,surface_snow_thickness,time: point,cm
+max_air_temp_snc_last_reset,air_temperature,time: maximum,celsius
+max_wnd_spd_10m_pst1hr,wind_speed,time: maximum,km/h
+maximum_air_temperature,air_temperature,time: maximum,celsius
+maximum_measured_wind_speed1,wind_speed,time: maximum,km h-1
+measured_wind_direction1,wind_from_direction,time: mean,degrees
+measured_wind_speed1,wind_speed,time: mean,km h-1
+min_air_temp_snc_last_reset,air_temperature,time: minimum,celsius
+minimum_air_temperature,air_temperature,time: minimum,celsius
+mslp,air_pressure_at_mean_sea_level,time: point,hPa
+pcpn_amt_pst1hr,lwe_thickness_of_precipitation_amount,time: sum (interval: 1 hour),mm
+pcpn_amt_pst24hrs,lwe_thickness_of_precipitation_amount,time: sum (interval: 24 hour),mm
+precip_detector_ratio,foo_bar,time: mean,1
+precipitation_new,lwe_thickness_of_precipitation_amount,time: sum,mm
+rel_hum,relative_humidity,time: point,%
+relative_humidity1,relative_humidity,time: mean,%
+snw_dpth,surface_snow_thickness,time: point,cm
+snwfl_amt_pst1hr,snowfall_amount,time: sum (interval: 1 hour),cm
+standard_snow,thickness_of_snowfall_amount,time: sum,cm
+stn_pres,air_pressure,time: point,hPa
+wind_direction_std_deviation1,wind_from_direction,time: standard_deviation,degrees
